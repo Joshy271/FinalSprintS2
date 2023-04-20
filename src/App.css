@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
+
+.pill {
+  z-index: 999;
+  position: absolute;
+  font-size: 24px;
+  font-family: "Lakki Reddy", cursive;
+  padding: 0.5em 1em;
+  margin: 0.25em;
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  background: aquamarine;
+  color: #000000;
+  cursor: pointer;
+  left: 20px;
+  top: 25px;
+}
+.pill:hover {
+  background-color: rgb(33, 179, 130);
+}
+
+.pill2 {
+  z-index: 999;
+  position: absolute;
+  left: 1720px;
+  font-size: 24px;
+  font-family: "Lakki Reddy", cursive;
+  padding: 0.5em 1em;
+  margin: 0.25em;
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  background: aquamarine;
+  color: #000000;
+  cursor: pointer;
+  top: 80px;
+  left: 1700px;
+}
+.pill2:hover {
+  background-color: rgb(33, 179, 130);
+}
+
+.pill3 {
+  z-index: 999;
+  position: absolute;
+  left: 1720px;
+  font-size: 24px;
+  font-family: "Lakki Reddy", cursive;
+  padding: 0.5em 1em;
+  margin: 0.25em;
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  background: aquamarine;
+  color: #000000;
+  cursor: pointer;
+  top: 10px;
+  left: 1700px;
+}
+.pill3:hover {
+  background-color: rgb(33, 179, 130);
+}
+.Title {
+  font-family: "Lakki Reddy", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 106px;
+  padding-left: 600px;
+
+  color: #ffffff;
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1870px;
+  height: 160px;
+  left: -1px;
+  top: -1px;
+
+  background: linear-gradient(
+    180deg,
+    #66baea 0%,
+    rgba(23, 96, 137, 0.932292) 99.99%,
+    rgba(121, 182, 216, 0) 100%
+  );
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.Img-1 {
+  position: absolute;
+  max-width: 100%;
+  transform: rotate(15deg);
+  padding-left: 1300px;
+  top: -140px;
+  left: -110px;
+}
+
+.Img-2 {
+  position: absolute;
+  top: 10px;
+  padding-left: 400px;
+  transform: rotate(-15deg);
+}
+body {
+  background: linear-gradient(
+    180deg,
+    #cbfde8 0%,
+    rgba(52, 167, 119, 0.40625) 99.99%,
+    rgba(203, 253, 232, 0) 100%
+  );
+  border: 1px solid #000000;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 1200px;
+}
+
+/* Buttons */
+
+.Theme-1 {
+  position: absolute;
+  padding: 150px 173px;
+  box-sizing: border-box;
+  top: 300px;
+  left: 40px;
+
+  background: linear-gradient(180deg, #ffffff 0%, #ff4949 100%);
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+.Theme-2 {
+  position: absolute;
+  padding: 150px 173px;
+  box-sizing: border-box;
+  top: 300px;
+  left: 440px;
+
+  background: linear-gradient(180deg, #ffffff 0%, #fab731 100%);
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+.Theme-3 {
+  position: absolute;
+  padding: 150px 173px;
+  box-sizing: border-box;
+  top: 300px;
+  left: 840px;
+
+  background: linear-gradient(180deg, #ffffff 0%, #fa00ff 100%);
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+.Theme-4 {
+  position: absolute;
+  padding: 150px 173px;
+  box-sizing: border-box;
+  top: 300px;
+  left: 1240px;
+
+  background: linear-gradient(180deg, #ffffff 0%, #10028a 100%);
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+.Theme-5 {
+  position: absolute;
+  padding: 150px 173px;
+  box-sizing: border-box;
+  top: 700px;
+  left: 40px;
+
+  background: linear-gradient(180deg, #ffffff 0%, #9bff6c 100%);
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+.ThemesTitle {
+  font-family: "Lakki Reddy", cursive;
+  position: absolute;
+  top: 200px;
+  left: 65px;
+  color: #000000;
+}
+.Theme-6 {
+  position: absolute;
+  padding: 150px 173px;
+  box-sizing: border-box;
+  top: 700px;
+  left: 440px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(0, 41, 255, 0) 0%,
+    #ffffff 0.01%,
+    #2c5aff 100%
+  );
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+.Theme-7 {
+  position: absolute;
+  padding: 150px 173px;
+  box-sizing: border-box;
+  top: 700px;
+  left: 840px;
+
+  background: linear-gradient(180deg, #ffffff 0%, #ff7a00 100%);
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+.Theme-8 {
+  position: absolute;
+  padding: 150px 173px;
+  box-sizing: border-box;
+  top: 700px;
+  left: 1240px;
+
+  background: linear-gradient(180deg, #ffffff 0%, #00e0ff 100%);
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+.ThemesTitle {
+  font-family: "Lakki Reddy", cursive;
+  position: absolute;
+  top: 200px;
+  left: 65px;
+  color: #000000;
+}
+
+.ChoreBoxTitle {
+  z-index: 999;
+  position: absolute;
+  font-family: "Lakki Reddy", cursive;
+  top: 320px;
+  left: 230px;
+}
+.ChoreBox {
+  z-index: 999;
+  position: absolute;
+  font-family: "Lakki Reddy", cursive;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  top: 400px;
+  left: 230px;
+  color: #000000;
+}
+.DateInput {
+  z-index: 999;
+  position: absolute;
+  font-family: "Lakki Reddy", cursive;
+  top: 500px;
+  left: 230px;
+}
+.DateDue {
+  z-index: 999;
+  position: absolute;
+  border: 1px solid #000000;
+  top: 580px;
+  left: 230px;
+}
+.SubmitBtn {
+  z-index: 999;
+  position: absolute;
+  font-size: 24px;
+  font-family: "Lakki Reddy", cursive;
+  padding: 0.5em 1em;
+  margin: 0.25em;
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  background: aquamarine;
+  color: #000000;
+  cursor: pointer;
+  top: 700px;
+  left: 380px;
+}
+.SubmitBtn:hover {
+  background-color: rgb(33, 179, 130);
+}
+.Block {
+  z-index: 900;
+  position: absolute;
+  font-family: "Lakki Reddy", cursive;
+  top: 200px;
+  left: 200px;
+  margin: 0.25em;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  padding-bottom: 800px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.DeleteBtn {
+  display: flex;
+  z-index: 999;
+  position: absolute;
+  font-size: 24px;
+  font-family: "Lakki Reddy", cursive;
+  padding: 0.5em 1em;
+  margin: 0.25em;
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  background: aquamarine;
+  color: #000000;
+  cursor: pointer;
+  left: 550px;
+  top: 0px;
+}
+.DeleteBtn:hover {
+  background-color: rgb(33, 179, 130);
+}
+.ChoreList {
+  z-index: 999;
+  position: absolute;
+  font-family: "Lakki Reddy", cursive;
+  left: 800px;
+  top: 200px;
+  margin: 0.25em;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  padding-bottom: 800px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.ChoreItems {
+  z-index: 999;
+  display: flex;
+  position: absolute;
+  font-family: "Lakki Reddy", cursive;
+  font-size: 32px;
+  top: 300px;
+  left: 850px;
+  margin-bottom: 20px;
+}
+.Box {
+  z-index: 999;
+  position: absolute;
+  font-size: 40px;
+  font-family: "Lakki Reddy", cursive;
+  top: 200px;
+  left: 350px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 400px;
+  padding-bottom: 700px;
+}
+.Paragraph-1 {
+  z-index: 999;
+  position: absolute;
+  width: 800px;
+  height: 306px;
+
+  font-family: "Lakki Reddy";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #000000;
+  top: 300px;
+  left: 400px;
+}
+.Paragraph-2 {
+  z-index: 999;
+  position: absolute;
+  width: 800px;
+  height: 306px;
+
+  font-family: "Lakki Reddy";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #000000;
+  top: 450px;
+  left: 400px;
+}
+.Paragraph-3 {
+  z-index: 999;
+  position: absolute;
+  width: 800px;
+  height: 306px;
+
+  font-family: "Lakki Reddy";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #000000;
+  top: 600px;
+  left: 400px;
+}
+.Paragraph-4 {
+  z-index: 999;
+  position: absolute;
+  width: 800px;
+  height: 306px;
+
+  font-family: "Lakki Reddy";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #000000;
+  top: 750px;
+  left: 400px;
+}
